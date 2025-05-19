@@ -4,24 +4,20 @@ import streamlit as st
 import joblib
 from utils import preprocess_text
 
-
-# Carregar arquivos necessários
-
-MODEL_PATH = "models/extra_tress.pkl"
 MODEL_URL = "https://drive.google.com/uc?export=download&id=1HO8VPMqEGOATPbw1GTIZOKlNBEOdbWMm"
+MODEL_PATH = os.path.join("..", "models", "extra_tress.pkl")
+VECTORIZER_PATH = os.path.join("..", "models", "model_vectorizer_tfidef.pkl")
+ENCODER_PATH = os.path.join("..", "models", "label_encoder.pkl")
 
-# Verifica se o modelo já está salvo localmente
 if not os.path.exists(MODEL_PATH):
-    os.makedirs("models", exist_ok=True)
+    os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
     urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
 
-# Carrega o modelo
 model = joblib.load(MODEL_PATH)
-vectorizer = joblib.load("models/model_vectorizer_tfidef.pkl")
-label_encoder = joblib.load("models/label_encoder.pkl")
+vectorizer = joblib.load(VECTORIZER_PATH)
+label_encoder = joblib.load(ENCODER_PATH)
 
-# Interface do usuário
-st.set_page_config(page_title="Análise de Sentimentos no Twitter", layout="centered")
+st.set_page_config(page_title="Análise de Sentimentos no Twitter")
 st.title("🧠 Análise de Sentimentos no Twitter")
 
 tweet = st.text_area("Digite o conteúdo do tweet a ser analisado:")
