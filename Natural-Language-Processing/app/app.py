@@ -1,7 +1,8 @@
 
 import streamlit as st
 import joblib
-from app.utils import preprocess_text
+from utils import preprocess_text
+
 
 # Carregar arquivos necessários
 model = joblib.load("Natural Language Processing\models\extra_tress.pkl")
