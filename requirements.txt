@@ -1,0 +1,75 @@
+erDiagram
+    CLIENTE ||--o{ PEDIDO : realiza
+    CLIENTE ||--o{ RESERVA : faz
+    PRATO ||--o{ ITEM_PEDIDO : está_em
+    CARDAPIO ||--o{ PRATO : oferece
+    PEDIDO ||--o{ ITEM_PEDIDO : contém
+    PEDIDO ||--o{ GARCOM : atendido_por
+    PEDIDO ||--o{ COZINHEIRO : preparado_por
+    MESA ||--o{ RESERVA : reservada_em
+    INGREDIENTE ||--o{ ESTOQUE_INGREDIENTE : tem_no
+    PRATO ||--o{ ESTOQUE_INGREDIENTE : usa
+    ESTOQUE_INGREDIENTE ||--o{ INGREDIENTE : contém
+    PRATO {
+        VARCHAR id_prato PK
+        VARCHAR nome
+        DECIMAL preco
+        VARCHAR descricao
+    }
+    CARDAPIO {
+        VARCHAR id_cardapio PK
+        DATE data_vigencia
+    }
+    CLIENTE {
+        VARCHAR id_cliente PK
+        VARCHAR nome
+        VARCHAR telefone
+        VARCHAR email
+    }
+    PEDIDO {
+        VARCHAR id_pedido PK
+        DATETIME data_hora
+        VARCHAR status
+        DECIMAL valor_total
+    }
+    ITEM_PEDIDO {
+        VARCHAR id_item_pedido PK
+        VARCHAR id_pedido FK
+        VARCHAR id_prato FK
+        INTEGER quantidade
+        DECIMAL subtotal
+    }
+    GARCOM {
+        VARCHAR id_garcom PK
+        VARCHAR nome
+        VARCHAR telefone
+    }
+    COZINHEIRO {
+        VARCHAR id_cozinheiro PK
+        VARCHAR nome
+        VARCHAR especialidade
+    }
+    MESA {
+        VARCHAR id_mesa PK
+        INTEGER numero_mesa
+        INTEGER capacidade
+        VARCHAR localizacao
+    }
+    RESERVA {
+        VARCHAR id_reserva PK
+        VARCHAR id_cliente FK
+        VARCHAR id_mesa FK
+        DATETIME data_hora_reserva
+        VARCHAR status_reserva
+        INTEGER numero_pessoas
+    }
+    INGREDIENTE {
+        VARCHAR id_ingrediente PK
+        VARCHAR nome
+        VARCHAR unidade_medida
+    }
+    ESTOQUE_INGREDIENTE {
+        VARCHAR id_ingrediente FK
+        VARCHAR id_prato FK
+        DECIMAL quantidade
+    }
