@@ -1,0 +1,201 @@
+Comunidade,Município,Estado,Índice de Desmatamento (%),Acesso à Água Potável (%),Cobertura Vegetal (%),Renda Média Mensal (R$),Densidade Populacional (hab/km²),Frequência de Queimadas (ano),Distância de Área Urbana (km),Presença de Escola (Sim/Não),Presença de Unidade de Saúde (Sim/Não)
+Comunidade 1,SÃO DOMINGOS DO CAPIM,Pará,25.6,86.5,22.9,2863.0,123.2,0,74.7,Sim,Não
+Comunidade 2,SALINÓPOLIS,Pará,12.9,99.3,21.8,799.0,120.3,11,87.3,Sim,Não
+Comunidade 3,TRACUATEUA,Pará,81.3,58.9,64.5,1924.0,104.8,5,43.9,Não,Sim
+Comunidade 4,SÃO MIGUEL DO GUAMÁ,Pará,81.5,56.0,25.5,1715.0,42.3,0,5.3,Sim,Sim
+Comunidade 5,MAGALHÃES BARATA,Pará,58.8,84.3,39.4,1990.0,89.4,9,17.0,Sim,Sim
+Comunidade 6,PALESTINA DO PARÁ,Pará,33.8,53.9,86.2,447.0,55.4,5,3.1,Sim,Sim
+Comunidade 7,SÃO DOMINGOS DO CAPIM,Pará,34.7,95.2,50.3,2668.0,15.6,0,65.7,Sim,Não
+Comunidade 8,CURIONÓPOLIS,Pará,66.7,90.1,66.7,2824.0,137.8,5,33.9,Sim,Não
+Comunidade 9,MARAPANIM,Pará,81.3,60.0,24.6,1869.0,22.2,9,54.7,Não,Não
+Comunidade 10,PONTA DE PEDRAS,Pará,80.4,82.6,26.3,2211.0,142.6,7,49.8,Não,Não
+Comunidade 11,XINGUARA,Pará,71.3,82.8,13.5,2798.0,68.0,10,9.1,Sim,Sim
+Comunidade 12,SANTARÉM NOVO,Pará,59.6,37.2,24.4,2239.0,29.4,1,40.9,Sim,Não
+Comunidade 13,SÃO FÉLIX DO XINGU,Pará,12.2,93.2,33.7,797.0,82.2,1,22.8,Não,Sim
+Comunidade 14,SANTA MARIA DAS BARREIRAS,Pará,18.7,65.4,25.0,1898.0,131.2,11,42.4,Não,Sim
+Comunidade 15,CAPANEMA,Pará,81.4,87.9,17.5,1977.0,110.4,3,21.2,Sim,Sim
+Comunidade 16,BANNACH,Pará,56.5,52.4,20.3,1503.0,121.4,10,84.2,Sim,Sim
+Comunidade 17,PONTA DE PEDRAS,Pará,5.8,92.7,49.2,2315.0,99.5,2,18.2,Não,Sim
+Comunidade 18,ANAJÁS,Pará,13.6,57.2,27.5,2829.0,104.5,3,96.1,Sim,Não
+Comunidade 19,RURÓPOLIS,Pará,61.4,30.8,41.0,2806.0,127.7,11,42.2,Não,Sim
+Comunidade 20,PALESTINA DO PARÁ,Pará,5.4,93.4,52.8,1572.0,39.0,6,84.8,Sim,Sim
+Comunidade 21,CONCEIÇÃO DO ARAGUAIA,Pará,18.7,36.4,68.7,694.0,74.4,10,63.2,Sim,Sim
+Comunidade 22,SÃO DOMINGOS DO ARAGUAIA,Pará,51.6,52.4,13.3,2961.0,34.7,0,73.8,Não,Não
+Comunidade 23,PORTEL,Pará,63.8,96.5,77.9,2581.0,148.2,5,77.0,Sim,Sim
+Comunidade 24,BREVES,Pará,60.4,96.5,63.4,724.0,141.7,2,51.0,Sim,Não
+Comunidade 25,CURRALINHO,Pará,24.1,70.1,16.9,2794.0,7.8,10,54.8,Sim,Sim
+Comunidade 26,TRACUATEUA,Pará,65.5,74.2,84.3,2662.0,106.4,9,51.9,Sim,Não
+Comunidade 27,CACHOEIRA DO ARARI,Pará,25.2,61.4,88.3,1749.0,138.9,6,59.2,Sim,Sim
+Comunidade 28,SÃO SEBASTIÃO DA BOA VISTA,Pará,32.7,50.5,15.2,1937.0,28.7,9,3.9,Sim,Não
+Comunidade 29,CASTANHAL,Pará,68.5,53.0,33.5,1437.0,86.1,1,40.2,Sim,Não
+Comunidade 30,IGARAPÉ-MIRI,Pará,60.2,77.1,78.5,542.0,137.5,1,61.0,Não,Sim
+Comunidade 31,SANTA MARIA DAS BARREIRAS,Pará,77.2,82.7,73.6,1272.0,7.0,3,60.2,Sim,Sim
+Comunidade 32,CACHOEIRA DO ARARI,Pará,60.9,85.4,25.7,2487.0,105.2,0,79.5,Sim,Sim
+Comunidade 33,BREU BRANCO,Pará,53.3,85.3,27.8,412.0,46.0,2,65.8,Sim,Sim
+Comunidade 34,PALESTINA DO PARÁ,Pará,13.0,36.4,41.5,1267.0,138.8,8,99.2,Não,Sim
+Comunidade 35,MARABÁ,Pará,36.3,64.6,51.2,1435.0,145.7,6,29.1,Não,Não
+Comunidade 36,TERRA ALTA,Pará,27.5,34.0,62.6,1797.0,141.8,6,36.6,Sim,Sim
+Comunidade 37,SÃO GERALDO DO ARAGUAIA,Pará,25.7,68.5,41.4,2792.0,72.2,10,39.0,Sim,Sim
+Comunidade 38,PORTEL,Pará,87.7,60.9,49.3,1300.0,129.6,3,47.1,Sim,Sim
+Comunidade 39,CURUÇÁ,Pará,38.4,92.1,73.5,1302.0,127.0,1,83.8,Sim,Sim
+Comunidade 40,SAPUCAIA,Pará,80.8,54.6,13.1,2318.0,49.2,3,24.3,Não,Não
+Comunidade 41,NOVA IPIXUNA,Pará,58.6,38.2,31.5,1576.0,124.7,5,77.8,Sim,Sim
+Comunidade 42,PORTO DE MOZ,Pará,72.6,40.0,70.6,984.0,7.5,10,41.1,Não,Não
+Comunidade 43,CAPANEMA,Pará,47.7,83.3,86.1,1576.0,90.2,10,60.6,Não,Não
+Comunidade 44,RURÓPOLIS,Pará,54.0,73.3,53.5,766.0,36.0,2,63.6,Sim,Não
+Comunidade 45,ORIXIMINÁ,Pará,46.9,37.1,55.2,859.0,19.8,0,37.9,Sim,Não
+Comunidade 46,PRIMAVERA,Pará,21.6,35.9,19.1,1696.0,13.4,11,51.7,Sim,Sim
+Comunidade 47,TOMÉ-AÇU,Pará,66.4,79.1,48.0,1489.0,105.1,7,41.9,Sim,Não
+Comunidade 48,MARITUBA,Pará,28.9,35.1,55.3,2779.0,52.3,11,7.8,Não,Sim
+Comunidade 49,ALENQUER,Pará,7.1,87.5,30.6,1342.0,109.3,4,44.3,Sim,Sim
+Comunidade 50,NOVA TIMBOTEUA,Pará,59.9,79.4,32.9,1910.0,11.7,4,10.6,Sim,Não
+Comunidade 51,BUJARU,Pará,20.1,35.7,42.1,2044.0,48.7,10,41.1,Sim,Não
+Comunidade 52,SÃO FÉLIX DO XINGU,Pará,84.9,35.9,11.7,434.0,81.8,3,59.7,Sim,Não
+Comunidade 53,SÃO GERALDO DO ARAGUAIA,Pará,86.1,99.1,37.4,2125.0,119.0,5,58.4,Sim,Sim
+Comunidade 54,BANNACH,Pará,82.8,56.2,28.0,863.0,49.2,2,66.6,Sim,Sim
+Comunidade 55,ULIANÓPOLIS,Pará,36.5,55.9,37.8,2899.0,94.6,8,10.4,Sim,Não
+Comunidade 56,CAPITÃO POÇO,Pará,6.3,86.9,20.2,787.0,133.1,4,65.6,Sim,Sim
+Comunidade 57,SÃO JOÃO DO ARAGUAIA,Pará,83.9,96.3,85.7,1478.0,93.1,2,31.9,Sim,Não
+Comunidade 58,CACHOEIRA DO PIRIÁ,Pará,41.4,99.0,60.5,622.0,36.5,10,40.5,Sim,Não
+Comunidade 59,CAPITÃO POÇO,Pará,87.2,82.7,67.7,2992.0,5.6,0,85.9,Sim,Sim
+Comunidade 60,BARCARENA,Pará,86.9,56.3,77.1,1706.0,130.8,9,1.9,Sim,Sim
+Comunidade 61,SAPUCAIA,Pará,77.5,35.8,52.4,1948.0,5.1,11,59.3,Sim,Sim
+Comunidade 62,SANTA CRUZ DO ARARI,Pará,30.0,84.4,17.4,574.0,131.5,5,60.3,Sim,Sim
+Comunidade 63,BRAGANÇA,Pará,37.7,69.1,55.7,2350.0,80.3,1,40.3,Sim,Não
+Comunidade 64,TRACUATEUA,Pará,77.3,59.7,59.9,946.0,141.0,2,24.5,Sim,Sim
+Comunidade 65,AUGUSTO CORRÊA,Pará,31.9,93.4,73.4,2735.0,120.2,0,24.2,Sim,Não
+Comunidade 66,ÓBIDOS,Pará,19.4,37.8,46.7,933.0,149.7,8,88.5,Sim,Sim
+Comunidade 67,TOMÉ-AÇU,Pará,52.3,64.5,20.8,896.0,53.9,7,44.8,Sim,Não
+Comunidade 68,CAPANEMA,Pará,84.6,30.8,34.1,495.0,115.5,11,33.8,Não,Sim
+Comunidade 69,CUMARU DO NORTE,Pará,64.2,62.8,40.9,1627.0,61.5,1,45.4,Sim,Sim
+Comunidade 70,GARRAFÃO DO NORTE,Pará,53.5,33.9,64.9,1869.0,73.0,11,67.3,Sim,Sim
+Comunidade 71,AVEIRO,Pará,13.3,38.3,58.5,571.0,94.9,10,15.4,Não,Não
+Comunidade 72,TRACUATEUA,Pará,57.3,38.2,40.3,2416.0,131.3,7,45.5,Não,Não
+Comunidade 73,BELÉM,Pará,89.2,75.4,93.9,1579.0,147.6,11,59.2,Sim,Não
+Comunidade 74,INHANGAPI,Pará,16.9,82.2,61.5,1763.0,115.7,8,94.9,Sim,Sim
+Comunidade 75,PORTEL,Pará,49.1,70.8,30.2,1546.0,63.8,0,26.0,Sim,Sim
+Comunidade 76,LIMOEIRO DO AJURU,Pará,79.6,97.4,18.7,1442.0,64.4,4,36.6,Sim,Sim
+Comunidade 77,NOVA IPIXUNA,Pará,68.0,56.2,23.0,1855.0,111.2,7,38.6,Sim,Sim
+Comunidade 78,PONTA DE PEDRAS,Pará,64.2,50.0,30.9,804.0,37.3,10,60.9,Sim,Sim
+Comunidade 79,PARAUAPEBAS,Pará,64.7,90.8,23.7,873.0,18.4,1,36.3,Sim,Não
+Comunidade 80,GOIANÉSIA DO PARÁ,Pará,35.6,45.7,25.9,2641.0,54.5,3,53.8,Sim,Não
+Comunidade 81,IGARAPÉ-AÇU,Pará,30.0,97.4,34.2,2860.0,44.5,6,78.4,Não,Não
+Comunidade 82,NOVO PROGRESSO,Pará,73.8,30.9,24.7,1371.0,45.9,2,70.8,Sim,Não
+Comunidade 83,NOVA TIMBOTEUA,Pará,73.9,97.9,86.2,1104.0,36.6,11,45.2,Sim,Sim
+Comunidade 84,GOIANÉSIA DO PARÁ,Pará,78.7,33.0,16.8,2074.0,8.2,4,86.6,Sim,Sim
+Comunidade 85,ACARÁ,Pará,82.6,92.4,54.6,1463.0,4.6,7,56.3,Sim,Sim
+Comunidade 86,DOM ELISEU,Pará,48.5,66.9,44.9,466.0,148.2,11,54.5,Sim,Não
+Comunidade 87,CANAÃ DOS CARAJÁS,Pará,47.6,99.5,93.5,806.0,65.3,9,4.4,Sim,Sim
+Comunidade 88,AVEIRO,Pará,72.9,35.2,19.5,2262.0,58.9,2,98.7,Sim,Sim
+Comunidade 89,SÃO JOÃO DE PIRABAS,Pará,60.2,68.8,43.8,2113.0,102.6,3,13.2,Sim,Sim
+Comunidade 90,BREU BRANCO,Pará,64.7,97.9,92.4,470.0,34.3,8,23.9,Sim,Sim
+Comunidade 91,MAGALHÃES BARATA,Pará,72.6,66.6,83.6,977.0,142.6,6,6.1,Sim,Não
+Comunidade 92,QUATIPURU,Pará,80.7,74.1,79.5,1001.0,118.4,0,64.4,Sim,Não
+Comunidade 93,ACARÁ,Pará,33.7,78.7,31.9,2147.0,15.2,11,23.2,Sim,Sim
+Comunidade 94,BRAGANÇA,Pará,36.9,61.8,24.5,451.0,63.8,3,18.8,Não,Não
+Comunidade 95,GURUPÁ,Pará,13.0,73.9,66.8,671.0,132.1,3,9.8,Sim,Não
+Comunidade 96,ALTAMIRA,Pará,54.2,70.9,89.0,2480.0,141.8,8,11.2,Sim,Sim
+Comunidade 97,SANTARÉM,Pará,8.1,93.1,57.3,864.0,71.2,5,58.9,Sim,Sim
+Comunidade 98,SÃO FÉLIX DO XINGU,Pará,44.6,33.2,58.6,2097.0,92.8,8,69.1,Sim,Sim
+Comunidade 99,ALENQUER,Pará,51.1,49.7,33.8,1019.0,26.7,11,40.3,Não,Sim
+Comunidade 100,SANTO ANTÔNIO DO TAUÁ,Pará,29.4,96.5,75.4,659.0,148.7,5,48.5,Sim,Não
+Comunidade 101,SANTA MARIA DAS BARREIRAS,Pará,55.2,92.3,25.9,1032.0,36.3,5,68.9,Não,Sim
+Comunidade 102,ANAPU,Pará,7.6,61.9,37.5,2278.0,141.5,4,2.7,Sim,Não
+Comunidade 103,CANAÃ DOS CARAJÁS,Pará,8.2,73.4,46.2,2625.0,98.1,4,33.0,Sim,Sim
+Comunidade 104,BRASIL NOVO,Pará,74.9,49.4,53.1,2559.0,91.9,1,97.3,Sim,Sim
+Comunidade 105,SÃO DOMINGOS DO CAPIM,Pará,35.6,43.2,30.6,1433.0,77.9,7,58.4,Não,Sim
+Comunidade 106,NOVA ESPERANÇA DO PIRIÁ,Pará,15.8,62.5,19.8,2137.0,36.1,7,26.2,Sim,Sim
+Comunidade 107,NOVO REPARTIMENTO,Pará,49.4,54.7,61.9,933.0,28.1,10,52.7,Sim,Sim
+Comunidade 108,TRACUATEUA,Pará,70.4,70.9,34.5,1162.0,34.6,0,34.9,Não,Não
+Comunidade 109,PORTO DE MOZ,Pará,23.3,35.4,59.4,2730.0,29.6,7,53.7,Sim,Sim
+Comunidade 110,BAGRE,Pará,57.9,98.2,23.1,434.0,117.4,4,13.4,Sim,Não
+Comunidade 111,GARRAFÃO DO NORTE,Pará,12.3,99.0,50.9,622.0,53.8,1,14.1,Sim,Sim
+Comunidade 112,IGARAPÉ-AÇU,Pará,9.4,78.9,55.3,941.0,10.6,1,15.2,Não,Sim
+Comunidade 113,SANTA ISABEL DO PARÁ,Pará,50.2,67.5,14.4,469.0,145.4,5,94.0,Sim,Sim
+Comunidade 114,CAMETÁ,Pará,51.0,51.7,38.6,872.0,132.8,10,73.6,Sim,Sim
+Comunidade 115,SANTA ISABEL DO PARÁ,Pará,59.2,87.0,21.4,1916.0,139.3,8,17.1,Não,Sim
+Comunidade 116,SÃO GERALDO DO ARAGUAIA,Pará,66.7,77.9,15.4,1496.0,149.2,0,19.6,Sim,Sim
+Comunidade 117,VITÓRIA DO XINGU,Pará,87.9,41.4,94.1,2721.0,27.7,11,73.4,Sim,Sim
+Comunidade 118,TAILÂNDIA,Pará,48.9,93.8,37.4,2525.0,60.6,5,16.5,Sim,Sim
+Comunidade 119,ALMEIRIM,Pará,32.5,87.6,78.8,1289.0,114.2,8,24.2,Sim,Sim
+Comunidade 120,SÃO JOÃO DA PONTA,Pará,72.6,96.5,31.6,1075.0,105.0,7,96.4,Não,Sim
+Comunidade 121,LIMOEIRO DO AJURU,Pará,28.0,80.8,67.9,1387.0,24.8,10,26.3,Não,Não
+Comunidade 122,PARAGOMINAS,Pará,42.3,72.9,74.6,1935.0,122.7,5,66.5,Sim,Não
+Comunidade 123,SÃO JOÃO DE PIRABAS,Pará,11.7,59.3,60.6,1097.0,35.2,2,97.9,Sim,Sim
+Comunidade 124,IRITUIA,Pará,7.2,95.3,50.1,2023.0,35.1,7,38.1,Sim,Sim
+Comunidade 125,BELÉM,Pará,86.8,90.6,45.0,1464.0,81.5,8,2.7,Sim,Não
+Comunidade 126,GURUPÁ,Pará,76.1,33.2,39.7,1835.0,89.8,0,25.2,Sim,Não
+Comunidade 127,ULIANÓPOLIS,Pará,64.2,31.8,89.0,1534.0,87.9,11,83.3,Sim,Sim
+Comunidade 128,SÃO JOÃO DE PIRABAS,Pará,39.8,56.4,80.6,1166.0,15.5,8,86.6,Sim,Não
+Comunidade 129,SÃO JOÃO DE PIRABAS,Pará,19.7,86.7,92.0,2866.0,131.9,5,77.1,Sim,Sim
+Comunidade 130,SÃO SEBASTIÃO DA BOA VISTA,Pará,18.3,99.1,20.6,2385.0,41.3,5,12.2,Sim,Sim
+Comunidade 131,BARCARENA,Pará,26.3,40.5,72.1,764.0,21.2,11,79.8,Sim,Não
+Comunidade 132,ORIXIMINÁ,Pará,51.7,71.6,89.8,2658.0,133.5,3,91.9,Sim,Sim
+Comunidade 133,TUCUMÃ,Pará,65.7,56.7,25.4,1667.0,143.4,0,60.5,Não,Não
+Comunidade 134,MARAPANIM,Pará,61.1,97.9,15.7,2726.0,129.6,9,94.1,Sim,Não
+Comunidade 135,PACAJÁ,Pará,28.8,88.9,73.0,2480.0,121.8,7,82.9,Não,Sim
+Comunidade 136,PRIMAVERA,Pará,86.2,88.7,58.8,1506.0,99.0,1,67.0,Não,Sim
+Comunidade 137,PARAUAPEBAS,Pará,67.7,62.8,81.6,458.0,83.5,11,58.1,Sim,Sim
+Comunidade 138,CONCÓRDIA DO PARÁ,Pará,52.1,59.0,21.9,1099.0,14.9,0,35.5,Não,Sim
+Comunidade 139,NOVA ESPERANÇA DO PIRIÁ,Pará,57.0,49.1,77.6,1808.0,62.5,1,16.8,Sim,Não
+Comunidade 140,CONCÓRDIA DO PARÁ,Pará,40.7,33.9,27.1,2047.0,57.2,0,60.9,Sim,Sim
+Comunidade 141,RIO MARIA,Pará,26.1,90.5,23.9,1071.0,40.4,0,32.5,Sim,Sim
+Comunidade 142,BELTERRA,Pará,35.3,86.9,24.0,762.0,109.1,8,86.8,Sim,Não
+Comunidade 143,SÃO DOMINGOS DO CAPIM,Pará,69.4,100.0,79.2,2571.0,75.4,0,99.3,Sim,Sim
+Comunidade 144,NOVO REPARTIMENTO,Pará,6.2,99.8,66.5,2959.0,14.0,3,75.5,Sim,Não
+Comunidade 145,GURUPÁ,Pará,14.9,68.9,54.5,1767.0,34.6,9,10.0,Sim,Sim
+Comunidade 146,CACHOEIRA DO ARARI,Pará,8.9,83.8,40.5,846.0,103.1,5,29.6,Sim,Não
+Comunidade 147,CURRALINHO,Pará,8.5,96.1,84.6,1108.0,13.3,6,11.8,Sim,Sim
+Comunidade 148,RONDON DO PARÁ,Pará,77.7,89.5,43.4,448.0,128.0,1,65.4,Sim,Sim
+Comunidade 149,SANTA ISABEL DO PARÁ,Pará,64.8,47.3,79.4,2777.0,75.3,5,76.8,Sim,Sim
+Comunidade 150,VIGIA,Pará,45.3,61.5,47.3,706.0,73.1,6,92.6,Sim,Sim
+Comunidade 151,GURUPÁ,Pará,13.3,39.0,42.0,1899.0,89.7,9,44.4,Não,Não
+Comunidade 152,CAMETÁ,Pará,46.8,96.8,49.3,1113.0,124.1,9,90.2,Sim,Não
+Comunidade 153,QUATIPURU,Pará,45.2,72.4,35.6,1841.0,53.5,1,87.9,Sim,Não
+Comunidade 154,ANANINDEUA,Pará,19.7,46.0,73.5,2094.0,102.3,1,32.4,Sim,Sim
+Comunidade 155,RURÓPOLIS,Pará,41.9,77.0,52.7,2557.0,85.7,9,87.0,Sim,Sim
+Comunidade 156,SANTA MARIA DAS BARREIRAS,Pará,38.9,73.3,29.7,937.0,41.5,6,38.2,Não,Sim
+Comunidade 157,VIGIA,Pará,57.3,55.1,86.5,429.0,132.0,11,30.4,Sim,Sim
+Comunidade 158,SANTO ANTÔNIO DO TAUÁ,Pará,59.0,37.9,42.6,756.0,120.0,0,65.3,Não,Não
+Comunidade 159,VIGIA,Pará,8.9,77.0,56.2,2740.0,99.5,7,33.5,Sim,Sim
+Comunidade 160,NOVA TIMBOTEUA,Pará,36.8,66.4,87.1,2672.0,127.9,10,63.4,Sim,Sim
+Comunidade 161,VIGIA,Pará,58.2,84.1,63.1,1953.0,130.4,2,61.4,Sim,Sim
+Comunidade 162,BANNACH,Pará,47.8,66.4,19.9,1961.0,106.8,10,56.8,Sim,Não
+Comunidade 163,RURÓPOLIS,Pará,77.8,89.7,89.9,2129.0,125.9,5,38.7,Sim,Não
+Comunidade 164,CAPITÃO POÇO,Pará,61.0,68.6,63.4,856.0,105.2,8,55.3,Não,Não
+Comunidade 165,PEIXE-BOI,Pará,18.8,69.3,38.5,2777.0,102.7,5,60.1,Não,Sim
+Comunidade 166,PARAUAPEBAS,Pará,11.0,91.4,21.8,1489.0,93.6,8,55.0,Sim,Sim
+Comunidade 167,MEDICILÂNDIA,Pará,59.6,58.2,77.5,1396.0,113.4,6,45.0,Não,Não
+Comunidade 168,RURÓPOLIS,Pará,7.3,39.4,62.7,1749.0,25.5,8,2.5,Não,Não
+Comunidade 169,CAPANEMA,Pará,54.8,32.0,55.3,522.0,132.4,1,59.1,Sim,Sim
+Comunidade 170,ITUPIRANGA,Pará,84.9,82.9,86.0,832.0,131.0,11,17.7,Sim,Não
+Comunidade 171,DOM ELISEU,Pará,53.9,73.4,77.0,2319.0,6.3,7,64.6,Sim,Não
+Comunidade 172,ANAJÁS,Pará,38.0,79.3,22.9,615.0,124.2,7,76.2,Sim,Não
+Comunidade 173,CUMARU DO NORTE,Pará,59.7,44.9,36.5,1968.0,21.1,1,50.5,Sim,Não
+Comunidade 174,JACUNDÁ,Pará,44.0,39.5,31.1,1038.0,51.6,11,54.7,Sim,Sim
+Comunidade 175,RIO MARIA,Pará,51.4,31.0,73.2,1412.0,112.0,3,95.2,Não,Sim
+Comunidade 176,SANTANA DO ARAGUAIA,Pará,85.0,54.5,12.9,1151.0,25.8,10,84.9,Sim,Sim
+Comunidade 177,NOVO PROGRESSO,Pará,37.8,71.3,58.4,1325.0,123.1,6,91.5,Sim,Não
+Comunidade 178,MOJUÍ DOS CAMPOS,Pará,86.7,57.5,74.8,2270.0,125.2,10,81.6,Não,Não
+Comunidade 179,SANTA MARIA DO PARÁ,Pará,82.0,60.6,84.5,1173.0,77.1,3,11.8,Não,Não
+Comunidade 180,GARRAFÃO DO NORTE,Pará,21.6,93.3,39.1,1873.0,2.9,3,15.8,Sim,Sim
+Comunidade 181,JURUTI,Pará,10.9,54.4,79.8,1638.0,44.5,5,53.1,Não,Não
+Comunidade 182,SALINÓPOLIS,Pará,13.6,66.0,19.4,2126.0,93.3,9,25.4,Sim,Não
+Comunidade 183,BELTERRA,Pará,6.5,84.9,81.9,2836.0,147.2,5,48.2,Sim,Não
+Comunidade 184,PORTO DE MOZ,Pará,13.0,57.8,20.8,2305.0,95.5,9,40.0,Sim,Não
+Comunidade 185,SANTA ISABEL DO PARÁ,Pará,63.1,73.5,43.8,959.0,40.5,2,55.4,Sim,Não
+Comunidade 186,CAMETÁ,Pará,11.1,90.4,77.8,481.0,95.8,8,74.9,Sim,Sim
+Comunidade 187,PACAJÁ,Pará,32.1,96.5,22.7,1082.0,81.9,11,71.8,Sim,Sim
+Comunidade 188,ANANINDEUA,Pará,76.8,40.3,29.5,1947.0,117.4,9,52.6,Sim,Sim
+Comunidade 189,ÓBIDOS,Pará,7.0,94.9,71.4,534.0,17.8,10,82.4,Sim,Sim
+Comunidade 190,SÃO FÉLIX DO XINGU,Pará,74.2,64.4,71.2,1691.0,114.6,1,43.7,Sim,Não
+Comunidade 191,PARAUAPEBAS,Pará,29.0,48.1,64.5,1952.0,82.1,5,89.8,Não,Não
+Comunidade 192,PLACAS,Pará,15.0,62.1,69.0,1269.0,144.5,11,8.1,Sim,Sim
+Comunidade 193,BAGRE,Pará,64.2,98.6,56.1,2404.0,52.6,6,95.5,Sim,Sim
+Comunidade 194,SANTARÉM,Pará,58.5,64.5,31.4,677.0,95.6,11,65.8,Sim,Não
+Comunidade 195,FLORESTA DO ARAGUAIA,Pará,79.6,53.0,39.4,595.0,139.9,8,38.6,Sim,Sim
+Comunidade 196,MOJUÍ DOS CAMPOS,Pará,67.5,74.3,25.4,2293.0,17.2,2,20.5,Sim,Sim
+Comunidade 197,PORTO DE MOZ,Pará,73.3,46.8,87.2,1688.0,140.7,9,48.4,Não,Sim
+Comunidade 198,TUCURUÍ,Pará,29.0,35.3,59.6,2190.0,103.8,2,20.3,Sim,Sim
+Comunidade 199,CURUÇÁ,Pará,20.1,39.0,44.1,1531.0,12.0,6,17.5,Sim,Sim
+Comunidade 200,VIGIA,Pará,68.8,39.0,49.3,1041.0,46.5,3,62.1,Sim,Sim
