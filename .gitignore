@@ -3,3 +3,6 @@ __pycache__
 
 # Modelo Superviosionado Neoplasia 
 best_pipeline.pkl
+
+#Desktop INI em Clustering
+desktop.ini
