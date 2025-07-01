@@ -47,11 +47,20 @@ Para isso, utilizamos **técnicas de clusterização**, que permitiram identific
 
 ## 📈 Resultados
 
-- Foram encontrados **5 clusters distintos** com características ambientais e socioeconômicas diferentes.
+- Foram encontrados **4 clusters distintos** com características ambientais e socioeconômicas diferentes.
 - A análise evidenciou, por exemplo:
   - Municípios com maior densidade populacional e menor cobertura vegetal agrupados.
   - Grupos com maior renda média mensal e acesso à água potável destacando regiões urbanizadas.
   - Clusters com alta frequência de queimadas associados a menor cobertura vegetal e maior desmatamento.
+
+### 📈 Escolha do Número de Clusters (Elbow Method)
+
+Para determinar a quantidade ideal de grupos (K) no algoritmo K-Means, utilizamos o método do cotovelo (*Elbow Method*), que avalia a inércia intra-cluster para diferentes valores de K.
+
+A curva abaixo mostra que a partir de **K = 3**, a redução de inércia passa a ser marginal, indicando um ponto de equilíbrio ideal entre complexidade e desempenho.
+
+![Elbow Plot](./reports/imagens/elbow.png)
+
 
 ---
 
