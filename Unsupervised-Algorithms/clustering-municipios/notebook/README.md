@@ -25,7 +25,7 @@ O pipeline de análise segue as seguintes etapas:
 
 1. **Pré-processamento dos dados**
    - Tratamento de dados ausentes
-   - Normalização com `MinMaxScaler`
+   - Normalização com `StandardScaler`
 
 2. **Análise Exploratória**
    - Correlação entre variáveis
