@@ -45,6 +45,15 @@ O pipeline de análise segue as seguintes etapas:
 
 ---
 
+### 📊 Análise Comparativa das Variáveis por Cluster
+
+Utilizamos boxplots para analisar como as variáveis ambientais se distribuem entre os grupos. A imagem abaixo apresenta o comportamento de uma das principais variáveis, revelando o perfil dominante em cada cluster.
+
+Essa análise é fundamental para interpretar o significado prático dos agrupamentos.
+
+![Boxplot por Cluster](../reports/imagens/boxplot_cluster.png)
+
+
 ## 🧾 Resultados
 
 - A análise indicou que o número ótimo de clusters foi `k = 4`.
