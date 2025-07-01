@@ -56,7 +56,7 @@ Essa análise é fundamental para interpretar o significado prático dos agrupam
 
 ## 🧾 Resultados
 
-- A análise indicou que o número ótimo de clusters foi `k = 4`.
+- A análise indicou que o número ótimo de clusters foi `k = 5`.
 - Os municípios foram classificados em 4 grupos distintos, com base em semelhanças nos seus indicadores ambientais.
 - O agrupamento permitiu identificar **municípios com maior pressão ambiental**, **municípios com alta cobertura hídrica**, entre outros padrões relevantes.
 
