@@ -7,10 +7,8 @@ A intenção é que este espaço funcione tanto como um portfólio pessoal quant
 Os projetos estão divididos em categorias como:
 - **Aprendizado Supervisionado**
 - **Aprendizado Não Supervisionado**
-- **Séries Temporais**
 - **Processamento de Linguagem Natural (PLN)**
-- **Análise de Associações**
-- **Visão Computacional**
+- **Deep Learning**
 - **Deploy de Modelos com Streamlit, Gradio e APIs**
 
 Cada projeto inclui:
