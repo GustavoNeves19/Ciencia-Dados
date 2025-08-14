@@ -1,26 +1,38 @@
-# model.py
-import tensorflow as tf
-from tensorflow.keras import layers, models, callbacks, optimizers
+from tensorflow.keras.models import load_model
+import numpy as np
+import pandas as pd
 
-def build_lstm(window: int, lr: float = 1e-3) -> tf.keras.Model:
-    """Modelo LSTM simples para previsão univariada."""
-    model = models.Sequential([
-        layers.Input(shape=(window, 1)),
-        layers.LSTM(64, return_sequences=True),
-        layers.LSTM(32),
-        layers.Dense(16, activation="relu"),
-        layers.Dense(1)
-    ])
-    model.compile(optimizer=optimizers.Adam(learning_rate=lr), loss="mse")
-    return model
+def predict_next_5_days(df, model, steps=10):
+    """
+    Função para prever os próximos 5 dias de preço de fechamento da ação.
+    
+    Parâmetros:
+    df (DataFrame): Dados históricos da ação.
+    model (keras.Model): Modelo LSTM treinado.
+    steps (int): Número de passos para previsão, neste caso 10 dias de dados.
+    
+    Retorno:
+    predictions (array): Previsões para os próximos 5 dias.
+    dates (list): Datas correspondentes às previsões.
+    """
+    # Utiliza os últimos 10 dias de dados para previsão
+    X_input = df['Close'].values[-steps:]  # Últimos 10 valores para previsão
+    X_input = X_input.reshape((1, steps, 1))  # Redimensiona para formato adequado (1, steps, 1)
+    
+    # Fazendo previsões para os próximos 5 dias
+    predictions = []
+    for _ in range(5):
+        pred = model.predict(X_input, verbose=0)
+        predictions.append(pred[0, 0])  # Adiciona a previsão
+        
+        # Atualiza os dados de entrada para o próximo dia
+        # Garantindo que 'pred' tenha o formato correto para concatenar com 'X_input'
+        pred = pred.reshape(1, 1, 1)  # Redimensiona para (1, 1, 1)
+        X_input = np.append(X_input[:, 1:, :], pred, axis=1)
 
-def default_callbacks(patience_es: int = 7, patience_rlr: int = 3):
-    """Conjunto padrão de callbacks para treino estável."""
-    return [
-        callbacks.EarlyStopping(
-            monitor="val_loss", patience=patience_es, restore_best_weights=True
-        ),
-        callbacks.ReduceLROnPlateau(
-            monitor="val_loss", factor=0.5, patience=patience_rlr, min_lr=1e-5, verbose=1
-        )
-    ]
+    # Gera as datas das previsões (incrementando a data de fechamento)
+    last_date = df['Date'].iloc[-1]
+    dates = [last_date + pd.Timedelta(days=i + 1) for i in range(5)]  # Adiciona os 5 próximos dias
+
+    return predictions, dates
+
