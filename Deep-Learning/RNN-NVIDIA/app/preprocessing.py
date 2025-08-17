@@ -8,6 +8,7 @@ def preprocess_data(df):
     - Seleção das colunas "Date" e "Close"
     - Conversão de "Date" para formato datetime
     - Normalização da coluna "Close"
+    - Configuração de "Date" como índice
     
     Parâmetros:
     df (DataFrame): DataFrame contendo os dados históricos.
@@ -24,9 +25,20 @@ def preprocess_data(df):
     
     # Ordenando os dados pela data
     df = df.sort_values('Date')
+
+    # Transformando "Date" em Index
+    df = df.set_index(pd.DatetimeIndex(df["Date"].values))
     
-    # Normalizando a coluna "Close" usando MinMaxScaler (opcional, mas útil para redes neurais)
+    # Dropando a Coluna "Date" após transformá-la em índice
+    df = df.drop("Date", axis=1, inplace=False)
+
+    # Criando um novo DataFrame para armazenar os dados normalizados
+    df_scaler = df.copy()  # Fazendo uma cópia do DataFrame original
+    
+    # Normalizando a coluna "Close" usando StandardScaler
     scaler = StandardScaler()
-    df['Close'] = scaler.fit_transform(df[['Close']])
+    df_scaler['Close'] = scaler.fit_transform(df[['Close']])
     
-    return df
+    return df_scaler, df
+    
+
