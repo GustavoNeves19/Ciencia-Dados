@@ -61,14 +61,28 @@ RNN-NVIDIA/
 │   ├── NVIDIA_LSYM.ipynb       # Arquivo do Jupyter Usado para Contsrução do Modelo Neural
 └── README.md               # Este documento
 ```
+
+## Análise Exploratória de Dados
+
+A **análise exploratória de dados (EDA)** foi realizada para entender melhor o comportamento dos dados de preços de ações da NVIDIA. Durante a EDA, foram investigadas as colunas mais relevantes, como a "Date" e "Close", e realizadas visualizações para identificar padrões temporais e tendências. Através dessa análise, foi possível avaliar a distribuição dos dados, detectar possíveis anomalias e garantir que os dados estivessem prontos para o pré-processamento e treinamento do modelo de previsão.
+
+Com isso, a EDA ajudou a configurar a base necessária para a construção de um modelo de previsão preciso, permitindo uma análise mais aprofundada do desempenho das ações da NVIDIA ao longo do tempo.
+
+**Questões Abordadas**
+1. Qual é a relação entre o preço de abertura (Open) e o preço de fechamento (Close) das ações da NVIDIA?
+2. Como o preço das ações (Open, High, Low, Close) varia ao longo do tempo?
+3. Como os preços de fechamento (Close) variam ao longo dos anos?
+4. Existe alguma sazonalidade ou padrão específico nas variações diárias de preço (Open, High, Low, Close) em determinados meses ou anos?
+
+![Análise-Exploratória](./reports/analytisc_exploratory.md)
     
 
-
-## Resultados Esperados
+## Resultados 
 
 - **Modelo de Previsão de Preços**: Um modelo de Deep Learning treinado para prever o preço de fechamento da ação da NVIDIA nos próximos dias.
 - **Análise de Desempenho**: Uma análise das métricas do modelo, incluindo **erro de treinamento**, **erro de validação** e **precisão das previsões**.
 - **Visualizações Gráficas**: Gráficos que mostram a evolução dos preços reais e previstos, permitindo uma análise visual da performance do modelo.
+
 
 ## Conclusão
 
