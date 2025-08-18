@@ -38,6 +38,32 @@ Este projeto utiliza uma série de **tecnologias** e **ferramentas** para garant
 - **Pandas** e **NumPy** para manipulação e pré-processamento de dados.
 - **Matplotlib** para visualização das métricas de treinamento e dos resultados das previsões.
 
+## Estrutura das Pastas do Projeto
+
+```bash
+RNN-NVIDIA/
+├── app/
+│   ├── app.py               # Interface com Streamlit para envio de CSV e visualização dos resultados
+│   ├── preprocessing.py             # Funções de pré-processamento e tratamento do CSV
+│   ├── model.py  #Funções Usadas para Previsão de Dados apartir de Dados Recorrentes
+├── models/
+│   ├── modelo_lstm.h5      # Modelo de Rede Neural para Previsão de Valores
+│   ├── scaler.pkl  # Modelo Scaler 
+├── imagens/
+│   ├── *.png  #Imagens Usadas para Análise Exploratória   
+├── data/                   # Exemplos de arquivos CSV para treino e validação
+│   ├── NVIDIA.csv     # Arquivo usado para treinamento dos modelos
+│   ├── nvidia_validation.csv   # Arquivo usado para validação do modelo e teste na aplicação
+├── reports/                # Relatórios e análises do projeto
+│   ├── analytics_exploratory.md   # Insights sobre Análise Exploratória
+│   ├── conclusion_general.md   # Métricas e validação do modelo de forma Geral
+├── LSTM-Predictuin-NVIDIA/                # Relatórios e análises do projeto
+│   ├── NVIDIA_LSYM.ipynb       # Arquivo do Jupyter Usado para Contsrução do Modelo Neural
+└── README.md               # Este documento
+```
+    
+
+
 ## Resultados Esperados
 
 - **Modelo de Previsão de Preços**: Um modelo de Deep Learning treinado para prever o preço de fechamento da ação da NVIDIA nos próximos dias.
@@ -47,4 +73,3 @@ Este projeto utiliza uma série de **tecnologias** e **ferramentas** para garant
 ## Conclusão
 
 O projeto de **previsão de preços da NVIDIA** utilizando Deep Learning busca explorar o potencial de **redes neurais** para **prever séries temporais** financeiras. Através do uso de **LSTM**, conseguimos construir um modelo robusto que aprende padrões temporais e fornece previsões precisas para os próximos dias. Esse projeto pode ser expandido para incluir outros ativos financeiros e ser integrado em **sistemas de decisão financeira**.
-
