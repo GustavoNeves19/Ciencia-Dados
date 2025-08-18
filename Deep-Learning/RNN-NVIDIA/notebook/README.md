@@ -60,7 +60,9 @@ A seguir, apresentamos as métricas que avaliam o desempenho do modelo, bem como
   O **R²** é uma métrica que indica a proporção da variabilidade nos dados explicada pelo modelo. Um valor de **0.9897** indica que o modelo tem uma **excelente capacidade de explicação**, ou seja, **98.97%** da variabilidade dos preços de fechamento é explicada pelo modelo.
 
  - **Análise de Loss**
+
  ![analise-loss](../images/perda_loss.png)
+ 
  - **Linha azul (Treinamento)**: Representa o comportamento da função de perda durante o treinamento do modelo. No início, o valor da perda é relativamente alto, mas diminui rapidamente à medida que o modelo aprende a partir dos dados de treinamento, ajustando seus parâmetros (como os pesos nas camadas da rede neural).
   
 - **Linha laranja (Teste)**: Mostra a evolução da função de perda para os dados de teste, ou seja, os dados que o modelo não viu durante o treinamento. Inicialmente, a perda do modelo nos dados de teste é maior, mas ao longo das iterações, a perda começa a se estabilizar, o que indica que o modelo está generalizando melhor.

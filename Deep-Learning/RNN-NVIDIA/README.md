@@ -74,7 +74,7 @@ Com isso, a EDA ajudou a configurar a base necessária para a construção de um
 3. Como os preços de fechamento (Close) variam ao longo dos anos?
 4. Existe alguma sazonalidade ou padrão específico nas variações diárias de preço (Open, High, Low, Close) em determinados meses ou anos?
 
-![Análise-Exploratória](./reports/analytisc_exploratory.md)
+[Análise-Exploratória](./reports/analytisc_exploratory.md)
     
 
 ## Resultados 
@@ -83,6 +83,51 @@ Com isso, a EDA ajudou a configurar a base necessária para a construção de um
 - **Análise de Desempenho**: Uma análise das métricas do modelo, incluindo **erro de treinamento**, **erro de validação** e **precisão das previsões**.
 - **Visualizações Gráficas**: Gráficos que mostram a evolução dos preços reais e previstos, permitindo uma análise visual da performance do modelo.
 
+## Execução do Streamlit
+
+
+1. **Instalação do Streamlit**:
+   Para rodar a aplicação, você precisa ter o Streamlit instalado em seu ambiente. Caso ainda não tenha o Streamlit instalado, basta rodar o seguinte comando:
+   
+   ```bash
+   pip install streamlit
+   ```
+2. **Estrutura do Código**
+
+    - O arquivo principal da aplicação é o ``app.py``. Neste arquivo, utilizamos o Streamlit para:
+
+    - Exibir a interface interativa para o usuário enviar os dados.
+
+    - Processar os dados enviados e gerar previsões com o modelo LSTM.
+
+    - Exibir gráficos e tabelas com os resultados.
+
+3. **Fluxo do `app.py`**
+- Carregamento do Modelo:
+ O modelo pré-treinado é carregado com a função load_model do Keras.
+
+- Carregamento do CSV:
+ O usuário faz o upload de um arquivo CSV contendo os dados históricos das ações da NVIDIA. Esse arquivo é carregado no Streamlit com a função st.file_uploader.
+
+- Exibição de Dados:
+ Após o upload, o DataFrame do CSV é exibido na interface do usuário, permitindo que o usuário veja as primeiras linhas do conjunto de dados.
+
+- Pré-processamento dos Dados:
+Uma função preprocess_data é utilizada para limpar e normalizar os dados, bem como configurar o índice para trabalhar com as séries temporais.
+
+- Previsões com o Modelo:
+O modelo LSTM faz a previsão dos preços de fechamento das ações da NVIDIA com base nos últimos 10 dias de dados históricos.
+
+- Exibição de Gráficos:
+Utilizando matplotlib, geramos gráficos de comparação entre os preços reais e previstos. O Streamlit exibe esses gráficos interativamente.
+
+4. Comando para Executar o Streamlit
+Após salvar o arquivo app.py, basta rodar o seguinte comando no terminal para iniciar o servidor do Streamlit:
+
+```bash
+streamlit run app.py
+
+```
 
 ## Conclusão
 
