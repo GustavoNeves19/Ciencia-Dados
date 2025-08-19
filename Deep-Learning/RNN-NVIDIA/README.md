@@ -50,15 +50,15 @@ RNN-NVIDIA/
 │   ├── modelo_lstm.h5      # Modelo de Rede Neural para Previsão de Valores
 │   ├── scaler.pkl  # Modelo Scaler 
 ├── imagens/
-│   ├── *.png  #Imagens Usadas para Análise Exploratória   
+│   ├── *.png  #Imagens Usadas para Análise Exploratória  & Streamlit 
 ├── data/                   # Exemplos de arquivos CSV para treino e validação
 │   ├── NVIDIA.csv     # Arquivo usado para treinamento dos modelos
 │   ├── nvidia_validation.csv   # Arquivo usado para validação do modelo e teste na aplicação
 ├── reports/                # Relatórios e análises do projeto
 │   ├── analytics_exploratory.md   # Insights sobre Análise Exploratória
-│   ├── conclusion_general.md   # Métricas e validação do modelo de forma Geral
-├── LSTM-Predictuin-NVIDIA/                # Relatórios e análises do projeto
-│   ├── NVIDIA_LSYM.ipynb       # Arquivo do Jupyter Usado para Contsrução do Modelo Neural
+│  
+├── notebook/                # Execução do Treinamento do Modelo Neural 
+│   ├── lstm_nvidia.ipynb       # Arquivo do Jupyter Usado para Contsrução do Modelo Neural
 └── README.md               # Este documento
 ```
 
