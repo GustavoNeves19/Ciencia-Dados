@@ -112,14 +112,22 @@ Com isso, a EDA ajudou a configurar a base necessária para a construção de um
 - Exibição de Dados:
  Após o upload, o DataFrame do CSV é exibido na interface do usuário, permitindo que o usuário veja as primeiras linhas do conjunto de dados.
 
+ ![carregamento-dados](./images/carregando_dataset.png)
+
 - Pré-processamento dos Dados:
 Uma função preprocess_data é utilizada para limpar e normalizar os dados, bem como configurar o índice para trabalhar com as séries temporais.
+
+![processamento-dados](./images/dados-processados.png)
 
 - Previsões com o Modelo:
 O modelo LSTM faz a previsão dos preços de fechamento das ações da NVIDIA com base nos últimos 10 dias de dados históricos.
 
+![rnn-recorrentes](./images/rrn_dez_dias_cinco.png)
+
 - Exibição de Gráficos:
 Utilizando matplotlib, geramos gráficos de comparação entre os preços reais e previstos. O Streamlit exibe esses gráficos interativamente.
+
+![previsao_futuros_dias](./images/predict_cinco_dias.png)
 
 4. Comando para Executar o Streamlit
 Após salvar o arquivo app.py, basta rodar o seguinte comando no terminal para iniciar o servidor do Streamlit:

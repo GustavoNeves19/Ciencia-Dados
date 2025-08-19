@@ -117,4 +117,4 @@ Esses dados são utilizados para treinar o modelo, que irá prever os preços de
 
 ---
 
-Esse **README.md** fornece uma visão geral do projeto, incluindo as etapas seguidas, a arquitetura do modelo, as métricas usadas para avaliação e uma explicação sobre os dados que alimentam o sistema de previsão. ​:contentReference[oaicite:0]{index=0}​
+Este projeto utiliza o modelo neural **LSTM (Long Short-Term Memory)**, um tipo especial de rede neural recorrente (RNN) projetada para aprender e reter informações em sequências temporais de dados. Os dados foram retirados da plataforma do Kaggle: [Nvidia Corporation](https://www.kaggle.com/datasets/prajwaldongre/nvidia-corp-share-price-2000-2024).
