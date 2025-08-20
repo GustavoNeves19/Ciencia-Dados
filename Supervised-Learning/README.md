@@ -33,7 +33,7 @@ Para implementar algoritmos de classificação, as principais ferramentas e tecn
 
 Aqui estão alguns exemplos de projetos práticos que podem ser realizados usando algoritmos de classificação:
 
-- [Classificação de Neoplasias](./clustering-municipios/)
+- [Classificação de Neoplasias](./neoplasias-classification/)
     - **Descrição**: Este projeto foi desenvolvido para aplicar técnicas de classificação utilizando dados histopatológicos com o objetivo de diferenciar neoplasias benignas de malignas. O modelo foi treinado usando o algoritmo LightGBM, uma técnica de Gradient Boosting, para construir um classificador altamente eficiente. O estudo visa contribuir para o diagnóstico precoce de tumores, ajudando a automatizar a classificação com alta precisão. O modelo alcançou uma acurácia de 98.83% e um F1-Score de 96.61%, demonstrando a eficácia do LightGBM para tarefas de classificação binária na área da saúde.
     - **Tecnologias**:  LightGBM, GridSearchCV, Scikit-learn, PCA, Validação Cruzada.
 
