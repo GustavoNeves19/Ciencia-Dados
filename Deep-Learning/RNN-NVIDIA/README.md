@@ -1,8 +1,19 @@
 # Deep Learning: Previsão de Preços da NVIDIA
 
+O mercado financeiro é altamente dinâmico e volátil, com preços de ações flutuando com base em uma série de fatores econômicos, políticos e sociais. Prever esses preços, especialmente no caso de ações específicas, como as da NVIDIA, é um grande desafio. Investidores e analistas financeiros dependem de previsões precisas para tomar decisões informadas. A tarefa de prever o preço de fechamento das ações, com base em dados históricos, é complexa, mas crucial para estratégias de investimento.
+
+## Contribuição de Redes Neurais
+
+A Ciência de Dados fornece ferramentas poderosas para lidar com dados temporais e realizar previsões de séries temporais, como a previsão de preços de ações. Modelos de Deep Learning, como as redes neurais recorrentes (RNNs), são ideais para esse tipo de tarefa, pois são capazes de aprender e capturar dependências temporais complexas em grandes volumes de dados. A Ciência de Dados contribui ao transformar dados históricos em previsões futuras, permitindo uma análise automatizada e otimizada do comportamento das ações e ajudando investidores na análise de tendências e na minimização de riscos.
+
 ## Objetivo do Projeto
 
 Este projeto tem como objetivo desenvolver um modelo de **Deep Learning** para prever o **preço de fechamento das ações da NVIDIA** com base em dados históricos. A previsão de preços de ações é uma das aplicações mais populares de **séries temporais** e **redes neurais recorrentes**. Através da análise de dados passados, o modelo será capaz de prever os preços futuros, fornecendo insights valiosos para decisões financeiras.
+
+## Redes Neurais Recorrentes
+
+O modelo desenvolvido utiliza **Redes Neurais Recorrentes (RNN)**, com foco em **LSTM (Long Short-Term Memory)**, que é uma variação das RNNs e é especialmente eficaz para o processamento de dados sequenciais, como as séries temporais. As redes LSTM são capazes de capturar dependências temporais de longo prazo, o que é fundamental para a previsão de preços de ações. O modelo é composto por três camadas LSTM, uma camada de dropout para prevenir overfitting, e uma camada densa para gerar a previsão final. O treinamento do modelo é realizado com base nos dados históricos, e as previsões são feitas para os dias subsequentes com base nas últimas observações.
+
 
 ## Tecnologias Utilizadas
 
@@ -12,9 +23,6 @@ Este projeto tem como objetivo desenvolver um modelo de **Deep Learning** para p
 - **NumPy**: Biblioteca para operações matemáticas e manipulação de arrays.
 - **Matplotlib/Seaborn**: Bibliotecas para visualização de dados e gráficos.
 
-## Estrutura do Modelo
-
-O modelo foi construído utilizando **redes neurais recorrentes (RNN)**, mais especificamente, uma variação conhecida como **LSTM (Long Short-Term Memory)**. As redes LSTM são particularmente eficazes para a modelagem de **dados sequenciais** como séries temporais, uma vez que elas conseguem **preservar informações importantes ao longo de sequências longas**.
 
 ### Arquitetura do Modelo
 
@@ -22,21 +30,8 @@ O modelo foi construído utilizando **redes neurais recorrentes (RNN)**, mais es
 - **Camada de Dropout**: Uma camada de dropout é inserida para prevenir **overfitting** e garantir que o modelo generalize bem para novos dados.
 - **Camada Densa**: A camada densa final gera a previsão do preço de fechamento para o próximo dia com base nas entradas fornecidas.
 
-## Aplicações do Modelo
 
-Este modelo pode ser utilizado para:
 
-- **Previsão de Preços de Ações**: Com base no histórico de preços de ações da NVIDIA, o modelo prevê os preços de fechamento para os próximos dias, ajudando na análise de **tendências do mercado** e **tomada de decisão**.
-- **Análise de Riscos**: A previsão de preços pode ser usada para realizar análises de risco em investimentos, fornecendo uma visão antecipada das variações de preço.
-- **Estratégias de Investimento**: As previsões de preços podem ser usadas para identificar oportunidades de compra ou venda, baseadas nas expectativas do mercado.
-
-## Tecnologias e Ferramentas
-
-Este projeto utiliza uma série de **tecnologias** e **ferramentas** para garantir que os dados sejam manipulados de forma eficiente e que o modelo seja treinado de maneira robusta:
-
-- **TensorFlow** e **Keras** para a construção e treinamento do modelo de Deep Learning.
-- **Pandas** e **NumPy** para manipulação e pré-processamento de dados.
-- **Matplotlib** para visualização das métricas de treinamento e dos resultados das previsões.
 
 ## Estrutura das Pastas do Projeto
 
@@ -62,7 +57,7 @@ RNN-NVIDIA/
 └── README.md               # Este documento
 ```
 
-## Análise Exploratória de Dados
+## [Análise Exploratória de Dados](./reports/analytisc_exploratory.md)
 
 A **análise exploratória de dados (EDA)** foi realizada para entender melhor o comportamento dos dados de preços de ações da NVIDIA. Durante a EDA, foram investigadas as colunas mais relevantes, como a "Date" e "Close", e realizadas visualizações para identificar padrões temporais e tendências. Através dessa análise, foi possível avaliar a distribuição dos dados, detectar possíveis anomalias e garantir que os dados estivessem prontos para o pré-processamento e treinamento do modelo de previsão.
 
@@ -74,14 +69,17 @@ Com isso, a EDA ajudou a configurar a base necessária para a construção de um
 3. Como os preços de fechamento (Close) variam ao longo dos anos?
 4. Existe alguma sazonalidade ou padrão específico nas variações diárias de preço (Open, High, Low, Close) em determinados meses ou anos?
 
-[Análise-Exploratória](./reports/analytisc_exploratory.md)
     
 
 ## Resultados 
 
+- **Erro Quadrático MSE**: O valor de 0.0115 indica que o modelo está fazendo boas previsões, com erros médios pequenos. A medida não é muito alta, o que sugere que o modelo tem um desempenho razoável para a tarefa de previsão.
+
+- **R² (Coeficiente de Determinação)**: O valor de 0.9897 indica que o modelo explica 98.96% da variabilidade nos dados, o que é um excelente resultado.
+
 - **Modelo de Previsão de Preços**: Um modelo de Deep Learning treinado para prever o preço de fechamento da ação da NVIDIA nos próximos dias.
 - **Análise de Desempenho**: Uma análise das métricas do modelo, incluindo **erro de treinamento**, **erro de validação** e **precisão das previsões**.
-- **Visualizações Gráficas**: Gráficos que mostram a evolução dos preços reais e previstos, permitindo uma análise visual da performance do modelo.
+
 
 ## Execução do Streamlit
 
