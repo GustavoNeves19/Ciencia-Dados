@@ -42,11 +42,11 @@ Este notebook apresenta um estudo detalhado sobre a **classificação de neoplas
 
    * Gráfico ROC Curve gerado com AUC > 0.99:
 
-     ![ROC Curve](../reports/figures/roc_comparacao_modelos.png)
+     ![ROC Curve](../imagens/curva-roc.png)
 
    * Importância dos atributos plotada via `plot_importance()`:
 
-     ![Importância dos atributos](../reports/figures/importancia_atributos_lgbm.png)
+     ![Importância dos atributos](../imagens/features-importances.png)
 
 6. **Detecção de Overfitting**
 
