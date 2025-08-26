@@ -63,7 +63,10 @@ Percebe-se que esse dataframe possui quatro classes de sentimentos: *Neutro*, *I
 
 O modelo **Random Forest** alcançou uma acurácia de **95.6%**, enquanto o **Extra Trees** obteve **96.2%**, com métricas de F1-score, precisão e recall consistentemente acima de 0.95 para todas as classes. Isso indica que ambos os modelos são altamente confiáveis para classificar sentimentos em textos do Twitter, com destaque para o Extra Trees em termos de precisão nas classes *Positive* e *Neutral*.
 
-A análise da matriz de confusão revelou que as maiores confusões ocorrem entre as classes *Neutral* e *Positive*, o que é esperado em tarefas de PLN, dado o conteúdo subjetivo e o tom ambíguo de muitos comentários. Apesar disso, os erros são relativamente baixos e não comprometem a performance geral do modelo.
+
+A análise da matriz de confusão revelou que as maiores confusões ocorrem entre as classes *Neutral* e *Positive*, o que é esperado em tarefas de PLN, dado o conteúdo subjetivo e o tom ambíguo de muitos comentários. Apesar disso, os erros são relativamente baixos e não comprometem a 
+performance geral do modelo.
+
 ---
 
 Este projeto exemplifica como é possível aplicar técnicas de PLN e aprendizado supervisionado para análise de sentimentos em grandes volumes de dados não estruturados, como tweets, proporcionando insights valiosos para o monitoramento de marcas e campanhas de marketing.
