@@ -78,6 +78,12 @@ Aqui está uma lista dos projetos contidos neste repositório. Clique no link de
 
     - **Tecnologias**: Keras, Scikit-learn, TensorFlow
 
+- [Previsão de Inadimplência de Empréstimo](./Redes%20neurais%20Inadiplência/)
+
+    - **Descrição**: O projeto `Previsão de Inadimplência de Empréstimos` desenvolve um modelo neural de classificação para estimar a probabilidade de DEFAULT a partir de variáveis como `home_ownership, loan_intent, loan_grade, term_years, employment_duration, customer_income`, entre outras. O pipeline inclui **EDA, tratamento de valores ausentes, padronização/transformações** (ex.: log1p), codificação de categóricas, manejo de desbalanceamento (class weights/SMOTE), seleção e comparação de modelos neurais, calibração de probabilidades, escolha de limiar orientada ao negócio e interpretabilidade com SHAP. O objetivo é apoiar decisões de crédito com métricas robustas (`ROC-AUC, PR-AUC, Recall/F1 da classe DEFAULT`) e reduzir risco de data leakage (ex.: uso criterioso de loan_grade).
+
+    - **Tecnologias** : Python, Pandas, NumPy, Scikit-learn, PyTorch (ou TensorFlow/Keras), PyTorch Lightning, Optuna/keras-tuner (tuning), Imbalanced-Learn (balanceamento), Matplotlib/Seaborn, Jupyter Notebook.
+
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
