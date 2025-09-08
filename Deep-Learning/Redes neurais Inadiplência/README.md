@@ -44,20 +44,23 @@ Essa função é compatível com a função de perda `binary_crossentropy`.
 
 ### 📊 Resultados Comparativos
 
-| Métrica | Modelo 2 Camadas | Modelo 3 Camadas | Modelo 4 Camadas |
-| :--- | :---: | :---: | :---: |
-| **Acurácia** | 0.9624 | 0.9652 | 0.9661 |
-| **Precisão NO DEFAULT** | 0.95 | 0.94 | 0.95 |
-| **Precisão DEFAULT** | 0.97 | 0.97 | 0.97 |
-| **Recall NO DEFAULT** | 0.88 | 0.90 | 0.90 |
-| **Recall DEFAULT** | 0.99 | 0.98 | 0.99 |
-| **AUC** | 0.99 | 0.99 | 0.99 |
+Após o treinamento e avaliação das três arquiteturas de redes neurais, obtivemos os seguintes resultados no conjunto de teste:
+
+- **Modelo com 2 camadas ocultas** → **0.9632**  
+- **Modelo com 3 camadas ocultas** → **0.9683**  
+- **Modelo com 4 camadas ocultas** → **0.9667**
+
+---
+
+## 🔎 Análise Comparativa
+
+- O **modelo de 3 camadas ocultas** apresentou a **maior acurácia** (**96,83%**), indicando um melhor equilíbrio entre **capacidade de aprendizado** e **generalização**.  
+- O **modelo de 2 camadas ocultas** obteve **96,32%**, mostrando que mesmo uma rede relativamente simples já captura bem os padrões dos dados.  
+- O **modelo de 4 camadas ocultas** alcançou **96,67%**, muito próximo ao de 3 camadas, mas sem ganhos significativos, o que sugere que o aumento de profundidade não trouxe vantagem relevante neste caso.  
 
 ---
 
 ### ✅ Conclusão
 
-* Todos os modelos apresentaram **AUC = 0.99**, indicando excelente capacidade de discriminação.
-* O modelo de **2 camadas** é simples e eficaz, mas sacrifica *recall* em bons pagadores.
-* O modelo de **4 camadas** é mais complexo, mas não apresentou ganhos relevantes em relação ao de 3 camadas.
-* O modelo de **3 camadas ocultas** é o mais equilibrado, oferecendo ótima detecção de inadimplentes e redução de falsos positivos sem um custo excessivo de complexidade.
+
+Com base na análise, o **modelo de 3 camadas ocultas** demonstrou ser a arquitetura mais eficiente para o problema. Embora os três modelos tenham apresentado alta performance, com acurácias acima de 96%, o modelo de 3 camadas alcançou o melhor desempenho, indicando que ele encontrou o ponto ideal entre complexidade e capacidade de generalização, superando as versões mais simples e as mais profundas.
