@@ -32,9 +32,9 @@ O projeto foi desenvolvido em Python, utilizando as principais bibliotecas de ci
     * Curva **ROC** e **AUC** para avaliar o poder discriminatório.
     * Importância relativa das variáveis (via SHAP/*permutation importance*).
 
-## Análise de Dados    
+## [Análise de Dados](../reports/)
 
-### Objetivos e Perguntas da Análise de Dados
+### Objetivos e Perguntas da Análise de Dados]
 
 A etapa de Análise de Dados tem como objetivo principal entender a fundo o *dataset* de empréstimos, preparando-o para a modelagem preditiva. Para isso, as colunas foram organizadas em variáveis numéricas contínuas e categóricas, o que permite uma abordagem de análise e pré-processamento mais direcionada e eficaz.
 
@@ -78,6 +78,8 @@ Ao responder a essas perguntas, a análise de dados irá fornecer *insights* val
 - O eixo **Y** representa a **taxa de verdadeiros positivos (True Positive Rate — TPR ou Recall)**.  
 - Quanto mais a curva se aproxima do **canto superior esquerdo**, melhor é o desempenho do modelo (alta taxa de acertos e baixa taxa de erros).  
 
+![roc-models](../imagens/roc.png)
+
 ---
 
 ### 🔎 O que é o AUC?
@@ -109,7 +111,7 @@ Sua capacidade superior de aprendizado permitiu capturar padrões mais complexos
 * **Recall para NO DEFAULT (adimplentes): 0.90** — Houve uma redução nos falsos positivos, minimizando a classificação incorreta de clientes que pagaram suas dívidas.
 * **F1-Score para DEFAULT: 0.98** — Essa métrica confirma a robustez do modelo na detecção de inadimplentes, equilibrando de forma eficaz a precisão e o *recall*.
 
-![matriz-confusão]
+![matriz-confusão](../imagens/matriz-confusion.png)
 
 | Classe real \\ Predita | **NO DEFAULT (0)** | **DEFAULT (1)** |
 |-------------------------|--------------------|-----------------|
@@ -125,7 +127,7 @@ Sua capacidade superior de aprendizado permitiu capturar padrões mais complexos
 
 #### 📊 Importância das Variáveis no Modelo Neural
 
-![features-importances]
+![features-importances](../imagens/features-importances.png)
  🔎 Principais variáveis
 
 1. **historical_default** → A variável mais relevante, com impacto muito superior às demais. Clientes com histórico de inadimplência são fortemente associados a novos casos de default.  
