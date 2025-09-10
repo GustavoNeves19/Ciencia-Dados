@@ -1,4 +1,4 @@
-### 📌 Previsão de Inadimplência com Redes Neurais
+# 📌 Previsão de Inadimplência com Redes Neurais
 
 ---
 
@@ -57,6 +57,23 @@ Após o treinamento e avaliação das três arquiteturas de redes neurais, obtiv
 - O **modelo de 3 camadas ocultas** apresentou a **maior acurácia** (**96,83%**), indicando um melhor equilíbrio entre **capacidade de aprendizado** e **generalização**.  
 - O **modelo de 2 camadas ocultas** obteve **96,32%**, mostrando que mesmo uma rede relativamente simples já captura bem os padrões dos dados.  
 - O **modelo de 4 camadas ocultas** alcançou **96,67%**, muito próximo ao de 3 camadas, mas sem ganhos significativos, o que sugere que o aumento de profundidade não trouxe vantagem relevante neste caso.  
+
+## Estrutura das Pastas do Projeto
+
+```bash
+RNN-Default/
+├── app/        #Códigos Py Demostrando Funções Auxiliares Para Execução do Script 
+│  
+├── imagens/    #Imagens Usadas para Análise Exploratória
+│    
+├── data/       # Exemplos de arquivos CSV para treino e validação
+│   
+├── reports/     # Relatórios e análises do projeto
+│     
+├── notebook/    # Execução do Treinamento do Modelo Neural 
+│   
+└── README.md    # Este documento
+```
 
 ---
 
