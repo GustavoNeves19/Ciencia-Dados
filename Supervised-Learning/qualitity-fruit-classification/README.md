@@ -1,61 +1,72 @@
-# 🍎 Classificação da Qualidade de Frutas com Machine Learning
+# 🍎 Classificação da Qualidade de Frutas com Machine Learning  
 
-## 🍊 Sobre o Problema
+## 🧬 Sobre o Problema  
 
-A qualidade de frutas é um fator determinante para **consumo, aceitação do mercado e precificação**.  
-Ela depende de múltiplas características físicas e químicas, como tamanho, peso, doçura e acidez, que podem variar significativamente entre diferentes frutas e estágios de maturação.
+A qualidade de frutas é um fator determinante na aceitação pelo consumidor e no valor de mercado. Características como **tamanho, peso, doçura, crocância, suculência, maturação e acidez** influenciam diretamente na percepção de qualidade.  
 
-Neste projeto, o objetivo é **classificar a qualidade da fruta** (alta ou baixa) com base em atributos medidos durante seu processo de avaliação.
+O desafio é classificar automaticamente as frutas em duas categorias:  
 
-As variáveis do conjunto de dados incluem:
+* **Good (boa qualidade)**  
+* **Bad (baixa qualidade)**  
 
-- **Size**: Tamanho da fruta.  
-- **Weight**: Peso da fruta.  
-- **Sweetness**: Nível de doçura.  
-- **Juiciness**: Crocância/suculência.  
-- **Ripeness**: Estágio de maturação.  
-- **Acidity**: Nível de acidez.  
-- **Quality**: Variável alvo (boa ou ruim).  
+Isso permite automatizar processos de seleção, reduzir custos e aumentar a eficiência na cadeia de produção e distribuição.  
 
----
+## 🧠 Como a Ciência de Dados Contribui?  
 
-## 🧠 Como a Ciência de Dados contribui?
+Com o uso de algoritmos de Machine Learning, é possível:  
 
-Com Machine Learning, podemos:
+* **Classificar frutas automaticamente** a partir de atributos físicos e sensoriais.  
+* **Reduzir a subjetividade** da avaliação manual feita por humanos.  
+* **Otimizar processos industriais**, evitando que frutas de baixa qualidade cheguem ao consumidor final.  
+* **Apoiar decisões estratégicas**, como ajustes no cultivo ou no controle de qualidade.  
 
-- Identificar padrões ocultos que diferenciam frutas de **alta** e **baixa qualidade**.  
-- Criar modelos preditivos para automatizar a classificação em tempo real.  
-- Apoiar **agricultores, distribuidores e mercados** na tomada de decisão sobre colheita, armazenamento e comercialização.  
+## ⚙️ Sobre os Modelos  
 
----
+Foram testados diversos modelos de classificação supervisionada:  
 
-## ⚙️ Sobre o Modelo Neural MLP
+* **Decision Tree**  
+* **Extra Tree**  
+* **Random Forest**  
+* **Extra Trees Classifier**  
+* **XGBoost**  
+* **LightGBM**  
 
-O modelo escolhido foi uma **Rede Neural do tipo Multilayer Perceptron (MLP)**, adequada para problemas de **classificação supervisionada** com múltiplos atributos.
+Esses modelos são baseados em **árvores de decisão e ensemble methods**, adequados para lidar com variáveis contínuas e problemas de classificação binária.  
 
-### 🔬 Como funciona?
+## 🔬 Como Funciona o Modelo  
 
-- A MLP possui **camadas ocultas com função de ativação ReLU**, que capturam relações não lineares entre as variáveis.  
-- A camada de saída utiliza **função Sigmoid**, retornando valores entre `0` e `1` para indicar a probabilidade de uma fruta ser de **alta qualidade**.  
-- O treinamento é realizado com **backpropagation** e otimização via **Adam**.  
+* **Entrada**: Variáveis numéricas representando as características da fruta:  
+  - `Size`, `Weight`, `Sweetness`, `Crunchiness`, `Juiciness`, `Ripeness`, `Acidity`  
+* **Pré-processamento**:  
+  - Padronização com **Z-score**.  
+  - Transformação da variável alvo `Quality` em classes numéricas (`0 = bad`, `1 = good`).  
+* **Treinamento**: Modelos supervisionados treinados com validação cruzada e ajuste de hiperparâmetros.  
+* **Saída**: Classificação final da fruta em **Good** ou **Bad**.  
 
-### 🎯 Por que usar MLP neste projeto?
+## 📈 Resultados  
 
-- Capacidade de aprender padrões complexos.  
-- Boa performance em tarefas de classificação binária.  
-- Flexibilidade para ajustar número de camadas e neurônios conforme a complexidade dos dados.  
+### 6.1 Acurácia no Conjunto de Teste  
+- **Extra Trees**: 90.0%  
+- **Random Forest**: 89.6%  
+- **XGBoost**: 89.5%  
 
----
+### 6.2 Accuracy Geral  
+- A média dos modelos ficou em torno de **90% de acurácia**, com **F1-Score = 0.90** para ambas as classes.  
 
-## 📈 Resultados
+### 6.3 Pipeline  
+O pipeline de Machine Learning incluiu:  
 
-- **Acurácia no conjunto de teste**: 95%  
-- **F1-Score (classe alta qualidade)**: 93%  
-- **ROC-AUC**: 0.97  
+1. **Pré-processamento**: limpeza, encoding da variável alvo e padronização.  
+2. **Divisão dos dados**: treino (70%) e teste (30%), mantendo classes balanceadas.  
+3. **Treinamento dos modelos**: ajuste de hiperparâmetros com validação cruzada.  
+4. **Avaliação**: métricas de precisão, recall, f1-score, matrizes de confusão e curva ROC.  
 
-Os resultados indicam que o modelo consegue capturar padrões relevantes nos atributos e fornecer previsões robustas para classificação da qualidade das frutas.  
+## 📊 Conclusão  
 
----
+* O modelo **Extra Trees Classifier** apresentou o melhor desempenho geral, atingindo **90% de acurácia** no teste e um **AUC de 0.9148**.  
+* **Random Forest e XGBoost** também mostraram resultados sólidos (AUC ≈ 0.96), confirmando boa generalização.  
+* Modelos mais simples como **Decision Tree e Extra Tree isolados** tiveram performance inferior, indicando overfitting ou baixa robustez.  
 
-## 📂 Estrutura do Projeto
+✅ **Conclusão final**: O uso de **métodos ensemble (Extra Trees, Random Forest, XGBoost)** garante maior robustez e precisão na tarefa de classificação da qualidade das frutas, tornando-os a melhor escolha para aplicações reais no setor agrícola e alimentício.  
+
 
