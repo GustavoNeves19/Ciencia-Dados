@@ -61,6 +61,24 @@ O pipeline de Machine Learning incluiu:
 3. **Treinamento dos modelos**: ajuste de hiperparâmetros com validação cruzada.  
 4. **Avaliação**: métricas de precisão, recall, f1-score, matrizes de confusão e curva ROC.  
 
+
+## 📂 Estrutura do Projeto
+classification-fruits/
+├── notebooks/              # Notebook principal
+│           
+├── data/                   # Dataset de frutas
+│ 
+├── models/                                # Modelos treinados
+|
+├── reports/                               # Gráficos e análises
+|
+├── app/                                # Criação e avaliação do pipeline
+│
+|── images/                             #Imagens Geradas no Projeto
+| 
+├── README.md                              # Este documento
+
+
 ## 📊 Conclusão  
 
 * O modelo **Extra Trees Classifier** apresentou o melhor desempenho geral, atingindo **90% de acurácia** no teste e um **AUC de 0.9148**.  
