@@ -8,7 +8,7 @@ Este notebook apresenta um estudo detalhado sobre a **classificação de frutas 
 
    * Dataset balanceado: ~2000 amostras de cada classe (`good` e `bad`).
    * Atributos utilizados: `Size`, `Weight`, `Sweetness`, `Crunchiness`, `Juiciness`, `Ripeness` e `Acidity`.
-   * Visualizações incluíram:
+   * Visualizações incluíram :
      - **Boxplots**: evidenciaram diferenças de distribuição entre as classes.
      - **Pairplot**: mostrou sobreposição entre variáveis, reforçando a necessidade de modelos mais complexos.
      - **Matriz de correlação**: revelou fracas correlações (<0.3), indicando independência entre atributos.
@@ -36,6 +36,22 @@ Este notebook apresenta um estudo detalhado sobre a **classificação de frutas 
 
 
 ---
+
+## 🔎 ![Análise Exploratória](../reports/README.md)
+
+A análise exploratória foi essencial para compreender as características do dataset e identificar padrões relevantes para a classificação da qualidade das frutas.
+
+- **Distribuição das variáveis**:  
+  As features numéricas, como `Size`, `Weight`, `Sweetness`, `Crunchiness`, `Juiciness`, `Ripeness` e `Acidity`, apresentaram amplitudes e dispersões distintas. Foi observada a necessidade de aplicar **padronização** para equilibrar as escalas antes do treinamento dos modelos.
+
+- **Boxplots**:  
+  Os gráficos de boxplot evidenciaram a presença de alguns **outliers** em atributos como peso e doçura, mas sem comprometer significativamente a qualidade geral dos dados.
+
+- **Pairplot**:  
+  A visualização de pares de variáveis mostrou **boa separação entre as classes (`good` e `bad`)** em dimensões como `Sweetness` e `Ripeness`, sugerindo forte contribuição desses atributos para a classificação.
+
+- **Matriz de Correlação**:  
+  Foi possível identificar **correlações positivas** entre atributos como `Size` e `Weight`, o que é esperado, e uma correlação mais fraca em variáveis como `Acidity`. Essas relações orientaram a interpretação sobre redundâncias entre variáveis.
 
 ## 📈 Curva ROC e AUC
 
