@@ -6,3 +6,6 @@ best_pipeline.pkl
 
 #Desktop INI em Clustering
 desktop.ini
+
+#Chave de API Gimin
+.env
