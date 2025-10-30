@@ -2,6 +2,8 @@ import nltk
 import string
 import pandas as pd
 
+COLS = ['tweetid', 'entity', 'target', 'content']  # Nomes esperados no CSV original
+
 def process_validation_data(csv_file) -> pd.DataFrame:
     """
     Carrega e trata um CSV contendo dados de comentários.
