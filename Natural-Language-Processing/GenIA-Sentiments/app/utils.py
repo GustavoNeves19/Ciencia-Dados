@@ -28,8 +28,6 @@ def process_validation_data(csv_file) -> pd.DataFrame:
     # Remove registros incompletos
     df.dropna(inplace=True)
 
-    # Aplica pré-processamento no campo de texto
-    df['content'] = df['content'].apply(preprocess_text)
 
     # Combina conteúdo com o nome da entidade
     df['text_combined'] = df['content'] + ' ' + df['entity']
