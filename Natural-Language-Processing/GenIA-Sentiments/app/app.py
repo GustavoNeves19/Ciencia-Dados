@@ -8,7 +8,6 @@ from genai_agente import generate_marketing_plan, IS_AGENT_READY # Importa o Age
 
 # --- CONFIGURAÇÃO DE CONSTANTES ---
 # URL da sua API de Classificação (FastAPI).
-# ATENÇÃO: Mude esta URL se sua API for para um servidor externo (deploy).
 API_ENDPOINT = "http://127.0.0.1:8000/predict/sentiment" 
 
 # Cores para os sentimentos
@@ -82,7 +81,6 @@ if uploaded_file is not None:
     # Leitura inicial do CSV (apenas colunas necessárias, sem pré-processamento local)
     try:
         df_raw = process_validation_data(uploaded_file)
-        #df_raw = pd.read_csv(uploaded_file, encoding='utf-8')
         # Garante que temos as colunas necessárias para enviar à API
         if 'entity' not in df_raw.columns or 'content' not in df_raw.columns:
             st.error("O CSV deve conter as colunas 'entity' e 'content'.")
