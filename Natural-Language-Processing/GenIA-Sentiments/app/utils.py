@@ -1,5 +1,3 @@
-import nltk
-import string
 import pandas as pd
 
 COLS = ['tweetid', 'entity', 'target', 'content']  # Nomes esperados no CSV original
