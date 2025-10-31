@@ -5,7 +5,7 @@ import pandas as pd
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import string
-from contextlib import asynccontextmanager # Importa para o novo hook de inicialização (lifespan)
+from contextlib import asynccontextmanager 
 
 # --- Dependências e Funções de Pré-Processamento (Essenciais para o Modelo ML) ---
 # A API precisa replicar o pré-processamento exato usado no treinamento.
@@ -79,11 +79,11 @@ async def lifespan(app: FastAPI):
     """
     await load_all_models() # Carrega os modelos
     yield # O servidor inicia aqui
-    # Código de shutdown (se necessário) pode ser adicionado após o 'yield'
+
 
 # --- Inicialização do FastAPI ---
 app = FastAPI(
-    lifespan=lifespan, # Usa o novo hook de ciclo de vida
+    lifespan=lifespan, 
     title="GenAI Sentiment API",
     description="Serviço REST para Classificação de Sentimentos de Holdings usando Modelos de Machine Learning (ML).",
     version="1.0.0"
