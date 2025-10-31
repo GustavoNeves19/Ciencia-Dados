@@ -3,6 +3,42 @@
 O **GenAI Sentiment** é uma aplicação avançada que integra Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina (ML) para classificação de sentimentos, com o poder da Inteligência Artificial Generativa (GenAI) para criar **estratégias de marketing acionáveis**.
 
 O objetivo é transformar a classificação bruta de sentimentos em *insights acionáveis*. Ao identificar comentários negativos e neutros para uma empresa específica, a GenAI é acionada para gerar um plano de ação de marketing e comunicação em tempo real.
+Com certeza! Aqui está somente a seção do `README.md` que demonstra o uso da IA Generativa para criar o plano de ação, usando as imagens como evidência visual:
+
+---
+
+## 🌟 Destaque: IA Generativa em Ação
+
+O cerne deste projeto é o uso do modelo **Gemini 2.5 Flash** (LLM) para atuar como um estrategista de marketing digital, gerando um plano tático com base exclusivamente nos comentários negativos e neutros classificados pelo modelo de Machine Learning.
+
+O processo de conversão de dados em estratégia é estruturado em três etapas automáticas:
+
+### 1. 🎯 Identificação dos Principais Pontos de Dor (Insights)
+
+O modelo Gemini recebe a amostra de comentários problemáticos de uma empresa específica e sintetiza os temas críticos, focando nos pontos que precisam de intervenção imediata.
+
+![identificação-dores](./img/Identificacao-Problema.png)
+
+> **Resultado:** Os comentários negativos foram condensados em três problemas estratégicos, como "Problemas Técnicos e de Conectividade Críticos" e "Frustração com a Comunicação".
+
+### 2. 📝 Geração do Plano de Ação Tática
+
+Com base nos problemas identificados, a IA elabora um plano de marketing focado em converter as percepções negativas (Negativo/Neutro) em positivas. As ações são divididas em sugestões para a área de **Marketing** e **Atendimento ao Cliente**.
+
+![Plano-Ação](./img/Plano-Acao.png)
+
+> **Resultado:** São sugeridas ações concretas como "Estabelecer Transparência Proativa em Questões Técnicas" (Marketing: Página de Status em tempo real) e "Resgatar a Percepção de Valor e Diversão" (Marketing: Lançar séries de conteúdos de *gameplay*).
+
+### 3. 💬 Mensagem de Conversão (Modelo de Resposta)
+
+Por fim, a IA gera um modelo de resposta institucional que pode ser usado imediatamente pelo time de Social Media ou SAC para interagir com o cliente, validando a frustração e direcionando-o para canais de suporte ou páginas de *status*.
+
+![Mensagem-Conversação](./img/Mensagem-Conversao.png)
+
+> 
+> **Resultado:** Uma mensagem empática e profissional que valida o feedback, indica ações internas e direciona o usuário para canais de suporte.
+
+
 
 ## 🧱 Arquitetura e Tecnologias
 
