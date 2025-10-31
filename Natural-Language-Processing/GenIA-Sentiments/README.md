@@ -3,7 +3,6 @@
 O **GenAI Sentiment** é uma aplicação avançada que integra Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina (ML) para classificação de sentimentos, com o poder da Inteligência Artificial Generativa (GenAI) para criar **estratégias de marketing acionáveis**.
 
 O objetivo é transformar a classificação bruta de sentimentos em *insights acionáveis*. Ao identificar comentários negativos e neutros para uma empresa específica, a GenAI é acionada para gerar um plano de ação de marketing e comunicação em tempo real.
-Com certeza! Aqui está somente a seção do `README.md` que demonstra o uso da IA Generativa para criar o plano de ação, usando as imagens como evidência visual:
 
 ---
 
