@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 
 # --- Carregar variáveis de ambiente do arquivo .env ---
 load_dotenv()
-
-# Ajuste: Use a variável correta GEMINI_API_KEY para consistência
 api_key = os.getenv("API_KEY") 
 
 try:
@@ -70,7 +68,6 @@ def generate_marketing_plan(company_name: str, problem_comments: list) -> str:
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=[user_query],
-            # 3. PASSANDO A INSTRUÇÃO DIRETAMENTE NO PARÂMETRO system_instruction
             config=types.GenerateContentConfig(
                 system_instruction=system_instruction_text
             )
