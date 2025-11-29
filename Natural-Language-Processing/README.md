@@ -45,6 +45,11 @@ Aqui está uma lista dos projetos contidos neste repositório. Clique no link de
     - **Descrição**: Este projeto consta uma análise automática de sentimentos com base em comentários de redes sociais, utilizando Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina. O objetivo é fornecer insights estratégicos para holdings que desejam monitorar a percepção de suas empresas no ambiente digital.
     - **Tecnologias**: NTLK, Scikit-learn, Extratress
 
+-  [GenAI Sentiment: Análise Estratégica e Planos de Ação Generativos](./GenIA-Sentiments/)
+      - **Descrição**: Aplicação avançada que combina **Classificação de Sentimentos** (PLN/ML) com o poder da **Inteligência Artificial Generativa (GenAI)** para transformar sentimentos negativos e neutros em **planos de ação de marketing acionáveis** e em tempo real.
+      - **Tecnologias de Destaque**: **Google GenAI** (Modelo **Gemini 2.5 Flash** como estrategista), **FastAPI** (Back-end/API), **Streamlit** (Front-end/Interface), **Scikit-learn** (Classificação ML/NLP).
+    
+
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
