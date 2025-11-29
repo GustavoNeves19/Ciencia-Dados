@@ -1,55 +1,48 @@
-# Processamento de Linguagem Natural (PLN)
+# Processamento de Linguagem Natural (PLN) 🗣️💻
 
-Este repositório contém projetos e recursos relacionados ao Processamento de Linguagem Natural (PLN). MEU objetivo é explorar, desenvolver e aplicar técnicas de PLN para resolver problemas do mundo real e avançar na compreensão da linguagem humana por máquinas.
+## O que é PLN? 🤔
 
-## O que é PLN?
+O **Processamento de Linguagem Natural (PLN)** é um campo da **inteligência artificial (IA)** focado na interação entre **computadores e a linguagem humana**. Seu objetivo é permitir que as máquinas compreendam, interpretem e gerem linguagem humana de forma valiosa.
 
-O Processamento de Linguagem Natural (PLN) é um campo da inteligência artificial que se concentra na interação entre computadores e a linguagem humana. Ele permite que os computadores compreendam, interpretem e gerem linguagem humana de uma forma valiosa. As aplicações de PLN são vastas e incluem:
+-----
 
-- Análise de Sentimentos: Determinar a polaridade (positiva, negativa, neutra) de um texto.
+## 🎯 Aplicações do PLN
 
-- Tradução Automática: Traduzir texto ou fala de um idioma para outro.
+As aplicações do PLN são vastas e incluem:
 
-- Reconhecimento de Fala: Converter voz em texto.
+  * **Análise de Sentimentos**: Determinar a polaridade (**positiva, negativa, neutra**) de um texto.
+  * **Tradução Automática**: Traduzir texto ou fala de um idioma para outro. 🌍
+  * **Reconhecimento de Fala**: Converter voz em texto. 🎤➡️📄
+  * **Geração de Linguagem Natural (NLG)**: Gerar **texto legível por humanos** a partir de dados estruturados.
+  * **Sistemas de Perguntas e Respostas**: Responder a perguntas em linguagem natural. ❓
+  * **Classificação de Texto**: Categorizar documentos em diferentes tópicos.
+  * **Extração de Informações**: Identificar e extrair informações específicas de grandes volumes de texto. 📑
 
-- Geração de Linguagem Natural (NLG): Gerar texto legível por humanos a partir de dados estruturados.
+-----
 
-- Sistemas de Perguntas e Respostas: Responder a perguntas em linguagem natural.
+## 🛠️ Tecnologias e Ferramentas
 
-- Classificação de Texto: Categorizar documentos em diferentes tópicos.
+Os projetos de PLN utilizam uma variedade de bibliotecas e *frameworks*, com destaque para:
 
-- Extração de Informações: Identificar e extrair informações específicas de grandes volumes de texto.
+  * **Python**: Linguagem de programação principal.
+  * **NLTK (Natural Language Toolkit)**: Biblioteca popular para PLN em Python.
+  * **SpaCy**: Biblioteca para PLN **avançado** e de alto desempenho.
+  * **Hugging Face Transformers**: Biblioteca essencial para modelos de ***deep learning* pré-treinados** (como BERT, GPT, T5, etc.). 🧠
+  * **Scikit-learn**: Para tarefas de *machine learning* (classificação e agrupamento de texto).
+  * **TensorFlow / PyTorch**: Para construção e treinamento de modelos de ***deep learning***.
+  * **Gensim**: Para modelagem de tópicos e *word embeddings*.
 
-## Tecnologias e Ferramentas
+-----
 
-Os projetos utilizam uma variedade de bibliotecas e frameworks de PLN, incluindo, mas não se limitando a:
+## 📂 Projetos de PLN
 
-- **Python**: Linguagem de programação principal.
+| Projeto | Descrição | Tecnologias Chave |
+| :--- | :--- | :--- |
+| **[Análise de Sentimentos do Twitter](./Sentiment-Analysis/)** 🐦 | Realiza a **análise automática de sentimentos** em comentários de redes sociais, utilizando PLN e Aprendizado de Máquina, para fornecer **insights estratégicos** para *holdings* monitorarem a percepção digital de suas empresas. | **NTLK**, **Scikit-learn**, **ExtraTrees** |
+| **[GenAI Sentiment: Análise Estratégica e Planos de Ação Generativos](./GenIA-Sentiments/)** 💡 | Aplicação que combina **Classificação de Sentimentos** (PLN/ML) com o poder da **Inteligência Artificial Generativa (GenAI)** (Gemini 2.5 Flash) para transformar sentimentos negativos em **planos de ação de marketing acionáveis** e em tempo real. | **Google GenAI** (Gemini 2.5 Flash), **FastAPI**, **Streamlit**, **Scikit-learn** |
 
-- **NLTK (Natural Language Toolkit)**: Uma biblioteca popular para PLN em Python.
+-----
 
-- **SpaCy**: Uma biblioteca para PLN avançado e de alto desempenho.
+## Licença 📜
 
-- **Hugging Face Transformers**: Biblioteca para modelos de deep learning pré-treinados, como BERT, GPT, T5, etc.
-
-- **Scikit-learn**: Para tarefas de machine learning em geral, incluindo classificação e agrupamento de texto.
-
-- **TensorFlow** / PyTorch: Para construção e treinamento de modelos de deep learning.
-
-- **Gensim**: Para modelagem de tópicos e word embeddings.
-
-## Projetos
-Aqui está uma lista dos projetos contidos neste repositório. Clique no link de cada projeto para ver seu README.md específico e obter mais detalhes.
-
-- [Análise de Sentimentos do Twitter](./Sentiment-Analysis/)
-    - **Descrição**: Este projeto consta uma análise automática de sentimentos com base em comentários de redes sociais, utilizando Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina. O objetivo é fornecer insights estratégicos para holdings que desejam monitorar a percepção de suas empresas no ambiente digital.
-    - **Tecnologias**: NTLK, Scikit-learn, Extratress
-
--  [GenAI Sentiment: Análise Estratégica e Planos de Ação Generativos](./GenIA-Sentiments/)
-      - **Descrição**: Aplicação avançada que combina **Classificação de Sentimentos** (PLN/ML) com o poder da **Inteligência Artificial Generativa (GenAI)** para transformar sentimentos negativos e neutros em **planos de ação de marketing acionáveis** e em tempo real.
-      - **Tecnologias de Destaque**: **Google GenAI** (Modelo **Gemini 2.5 Flash** como estrategista), **FastAPI** (Back-end/API), **Streamlit** (Front-end/Interface), **Scikit-learn** (Classificação ML/NLP).
-    
-
-
-## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Este projeto está licenciado sob a **Licença MIT** (detalhes no arquivo `LICENSE`).

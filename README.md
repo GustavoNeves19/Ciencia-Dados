@@ -1,22 +1,52 @@
 # 📊 Repositório de Projetos de Ciência de Dados
 
-Este repositório foi criado com o objetivo de centralizar e organizar diversos projetos de ciência de dados desenvolvidos por mim, Gustavo Neves da Paz Rafael. Ele reúne aplicações práticas de técnicas estatísticas, algoritmos de machine learning, processamento de dados e deploy de modelos, cobrindo uma variedade de tópicos fundamentais da área.
+Este repositório, criado por mim, **Gustavo Neves** centraliza e organiza diversas aplicações práticas de **Ciência de Dados**. O objetivo é apresentar um portfólio abrangente, reunindo técnicas estatísticas, algoritmos de *Machine Learning* (ML), processamento de dados e implementação de modelos.
 
-A intenção é que este espaço funcione tanto como um portfólio pessoal quanto como uma base de aprendizado contínuo, sendo constantemente atualizado com novos estudos, experimentos e implementações.
+A intenção é que este espaço funcione como uma base de aprendizado contínuo, sendo constantemente atualizado com novos estudos, experimentos e implementações. Sinta-se à vontade para explorar e contribuir!
 
-Os projetos estão divididos em categorias como:
-- **Aprendizado Supervisionado**
-- **Aprendizado Não Supervisionado**
-- **Processamento de Linguagem Natural (PLN)**
-- **Deep Learning**
-- **Deploy de Modelos com Streamlit, Gradio e APIs**
+---
 
-Cada projeto inclui:
-- Explicação do problema
-- Conjunto de dados utilizado
-- Abordagem e técnicas aplicadas
-- Avaliação dos resultados
-- Código modularizado
-- (Sempre que possível) Interface interativa ou deploy online
+## 🏗️ Estrutura e Conteúdo do Repositório
 
-Sinta-se à vontade para explorar os projetos, reutilizar partes do código (ver licença MIT) e me contactar em caso de dúvidas ou sugestões!
+O repositório está organizado em diretórios, cada um focado em uma área fundamental de *Data Science*. Cada projeto individual inclui explicação do problema, *dataset*, abordagem técnica, avaliação de resultados e código modularizado.
+
+| Categoria Principal | Tópicos e Algoritmos Abordados | Destaques dos Projetos |
+| :--- | :--- | :--- |
+| [**Aprendizado Supervisionado (Classificação)**](./Supervised-Learning/) 🏷️ | Previsão, Categorização, K-NN, LightGBM, Random Forest, XGBoost. | **Diagnóstico de Neoplasias** (Classificação Binária com 98.83% de acurácia) e **Classificação da Qualidade de Frutas** (Controle de Qualidade Automatizado). |
+| [**Aprendizado Não Supervisionado (Clustering)**](./Unsupervised-Algorithms/) 🔍 | Segmentação, K-Means, PCA, Análise Exploratória de Padrões. | **Clusterização de Municípios do Pará** com base em dados ambientais (desmatamento, focos de calor) para apoiar políticas públicas. |
+| [**Processamento de Linguagem Natural (PLN)**](./Natural-Language-Processing/) 🗣️ | Análise de Sentimentos, Classificação de Texto, Tradução Automática, Tokenização. | **Análise de Sentimentos do Twitter** para monitoramento corporativo e **GenAI Sentiment** (integração de Classificação ML com **Gemini 2.5 Flash** para gerar Planos de Ação Estratégica). |
+| [**Deep Learning (Redes Neurais)**](./Deep-Learning/) 🧠 | RNN, LSTM, FNN, Previsão de Séries Temporais, Classificação. | **Previsão de Preços de Ações da NVIDIA** (utilizando **Redes Neurais LSTM**) e **Previsão de Inadimplência de Empréstimos** (utilizando modelos neurais robustos). |
+| **Implementação & Deploy** 🚀 | APIs (FastAPI), Interfaces Interativas (Streamlit), Servidores de Modelo. | Uso de **FastAPI** para servir modelos de classificação via API, desacoplando o *back-end* do *front-end* **Streamlit**. |
+
+---
+
+## 🛠️ Tecnologias Principais Utilizadas
+
+Os projetos foram desenvolvidos utilizando um ecossistema robusto de ferramentas e bibliotecas de *Data Science* em Python:
+
+* **Linguagem**: Python 3
+* **Machine Learning (Clássico)**: **Scikit-learn**, Pandas, NumPy
+* **Deep Learning**: **TensorFlow/Keras**, **PyTorch**
+* **PLN/GenAI**: **NLTK**, **Hugging Face Transformers**, **Google GenAI (Gemini 2.5 Flash)**
+* **Visualização**: Matplotlib, Seaborn, Plotly
+* **Deploy**: **Streamlit** (Interfaces), **FastAPI** (APIs/Servidor de Modelos), Uvicorn
+
+---
+
+## 🌐 Como Explorar
+
+1.  **Navegue pelos Diretórios**: Clique nas pastas correspondentes a cada categoria para acessar os projetos individuais.
+2.  **Leia os READMEs**: Cada projeto contém um `README.md` detalhado com:
+    * Explicação do problema.
+    * Abordagem e técnicas aplicadas.
+    * Avaliação dos resultados (métricas).
+    * Instruções de uso (`Como Utilizar`).
+3.  **Código**: O código está modularizado e pronto para ser executado (seguindo as instruções de dependências e *deploy* local).
+
+---
+
+## 🤝 Contato e Licença
+
+Sinta-se à vontade para me contatar em caso de dúvidas, sugestões ou oportunidades de colaboração!
+
+Este projeto está licenciado sob a **Licença MIT** (veja o arquivo `LICENSE` para detalhes), permitindo a reutilização e modificação do código.
